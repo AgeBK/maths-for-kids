@@ -1,0 +1,213 @@
+.timerCont {
+  background-color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  display: block;
+  /* border: 1px solid #000;
+  box-shadow: 2px 2px 2px #000; */
+  /* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; */
+  margin: 50px 0;
+}
+
+.mathsContainer {
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+  border: 1px solid #000;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.subCont {
+  font-size: 28px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.subCont span {
+  width: 25%;
+  display: inline-block;
+}
+
+.resultsCont {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.results {
+  font-size: 30px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.hdr {
+  background-color: #fff;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.992);
+  font-size: 4rem;
+  display: block;
+  border: 1px solid #000;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.time {
+  text-shadow: 2px 2px 2px #000;
+  color: #000;
+  min-height: 111px;
+}
+
+/* .standard {
+  color: purple;
+} */
+
+.correct {
+  color: #008000;
+}
+
+.warning {
+  color: #ff0;
+}
+
+.wrong,
+.error,
+.urgent {
+  color: #f00;
+}
+
+.num {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: red;
+  display: inline-block;
+  margin: 5px;
+}
+
+.input {
+  width: 130px;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #008000;
+  color: #fff;
+  padding: 10px;
+  font-size: 40px;
+  margin: 0;
+  border-radius: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.remove {
+  background-color: red;
+}
+
+.num {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: red;
+  display: inline-block;
+  margin: 5px;
+}
+
+.mathItemsCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.mathItems {
+  margin-bottom: 35px;
+  flex-basis: 36%;
+  text-align: center;
+}
+
+.hide {
+  display: none !important;
+}
+
+.color1 {
+  color: #00f;
+}
+
+.color2 {
+  color: #f00;
+}
+
+.color3 {
+  color: #ff0;
+}
+
+.color4 {
+  color: #008000;
+}
+
+.color5 {
+  color: purple;
+}
+
+.color6 {
+  color: darkturquoise;
+}
+
+.color7 {
+  color: chartreuse;
+}
+
+.color8 {
+  color: crimson;
+}
+
+.color9 {
+  color: lightblue;
+}
+
+.color10 {
+  color: orangered;
+}
+
+.color11 {
+  color: orange;
+}
+
+.color12 {
+  color: whitesmoke;
+}
+
+.color13 {
+  color: #151414;
+}
+
+.color14 {
+  color: rgb(16, 16, 167);
+}
+
+.color15 {
+  color: rgb(36, 36, 154);
+}
+
+.color16 {
+  color: rgba(87, 0, 0, 0);
+}
+
+.color17 {
+  color: rgba(24, 5, 23, 0);
+}
+
+.color18 {
+  color: peachpuff;
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    background-color: red;
+    font-size: 24px;
+  }
+
+  .timerCont {
+    font-size: 44px;
+  }
+}

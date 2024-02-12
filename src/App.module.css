@@ -1,0 +1,237 @@
+.mainCont {
+  /* background: url("./img/colorful-numbers.jpg") no-repeat center center fixed; */
+  background: url("./img/numbers.jpg");
+  /* height: 100vh; */
+  padding: 100px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.mainContSpell {
+  background: url("./img/alphabet.jpg");
+}
+
+.mainContInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mathsContainer {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  border: 1px solid #000;
+  box-shadow: 2px 6px 6px #000;
+}
+
+.subCont {
+  font-size: 28px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 2px 6px 6px #000;
+}
+
+.subCont span,
+.skillCont span {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+
+.resultsCont {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+  box-shadow: 2px 6px 6px #000;
+}
+
+.hdr {
+  background-color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px #000;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+.hdr .timer {
+  background-color: #fff;
+  text-align: center;
+  font-size: 6rem;
+  display: block;
+  border: 1px solid #000;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.results {
+  font-size: 30px;
+  margin-right: 20px;
+  font-weight: bold;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+.num {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  /* color: red; */
+  display: inline-block;
+  margin: 5px;
+}
+
+.input {
+  width: 130px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.ib {
+  display: inline-block;
+}
+
+h1.ib {
+  margin-right: 20px;
+}
+
+/* .btn {
+  background-color: #008000;
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+  margin: 0;
+  border-radius: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+} */
+
+.btn:first-letter {
+  text-transform: uppercase;
+}
+
+.btn.not {
+  background-color: #fff;
+  color: #008000;
+}
+
+.btn:hover {
+  /* box-shadow: 2px 6px 6px #000; */
+  background-color: rgb(1, 124, 1);
+  color: #fff;
+}
+
+.restart {
+  background-color: whitesmoke;
+  color: #000;
+}
+
+.mathItemsCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin: 20px; */
+}
+
+.mathItems {
+  margin-bottom: 35px;
+  flex-basis: 36%;
+  text-align: center;
+  box-shadow: 2px 6px 6px #000;
+  border: 2px solid #000;
+  background-color: yellowgreen;
+}
+
+.hide {
+  display: none;
+}
+
+.color1 {
+  color: blue;
+}
+
+.color2 {
+  color: red;
+}
+
+.color3 {
+  color: yellow;
+}
+
+.color4 {
+  color: green;
+}
+
+.color5 {
+  color: purple;
+}
+
+.color6 {
+  color: darkturquoise;
+}
+
+.color7 {
+  color: chartreuse;
+}
+
+.color8 {
+  color: crimson;
+}
+
+.color9 {
+  color: lightblue;
+}
+
+.color10 {
+  color: orangered;
+}
+
+.color11 {
+  color: orange;
+}
+
+.color12 {
+  color: whitesmoke;
+}
+
+.color13 {
+  color: #151414;
+}
+
+.color14 {
+  color: rgb(16, 16, 167);
+}
+
+.color15 {
+  color: rgb(36, 36, 154);
+}
+
+.color16 {
+  color: rgba(87, 0, 0, 0);
+}
+
+.color17 {
+  color: rgba(24, 5, 23, 0);
+}
+
+.color18 {
+  color: peachpuff;
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    background-color: red;
+    font-size: 18px;
+  }
+}
+
+@keyframes fontGrow {
+  0% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 30px;
+  }
+}

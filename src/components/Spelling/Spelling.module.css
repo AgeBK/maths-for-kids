@@ -1,0 +1,54 @@
+.container {
+  background-color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px #000;
+  margin-bottom: 50px;
+  /* text-transform: capitalize; */
+}
+
+.btn {
+  background-color: #008000;
+  color: #fff;
+  padding: 10px;
+  font-size: 40px;
+  margin: 0;
+  border-radius: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.answerCont {
+  margin-right: 1rem;
+}
+
+.listItem {
+  display: inline-block;
+}
+
+.listItem img {
+  height: 200px;
+  width: 200px;
+}
+
+.answerInput {
+  font-size: 40px;
+  width: 30px;
+}
+
+.test {
+  font-size: 16px;
+}
+
+.correct {
+  color: darkgreen;
+  /* animation: fontGrow 2s; */
+}
+
+.error {
+  color: red;
+}
