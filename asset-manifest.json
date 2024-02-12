@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/maths-for-kids/static/css/main.4870c263.css",
+    "main.js": "/maths-for-kids/static/js/main.5ff347dc.js",
+    "static/js/787.59cad386.chunk.js": "/maths-for-kids/static/js/787.59cad386.chunk.js",
+    "static/media/numbers.jpg": "/maths-for-kids/static/media/numbers.3f6c33b4e10fde005446.jpg",
+    "static/media/alphabet.jpg": "/maths-for-kids/static/media/alphabet.4264bf8f0d6dad0d3303.jpg",
+    "static/media/5toGo.mp3": "/maths-for-kids/static/media/5toGo.a8f287a7e42272ed7122.mp3",
+    "static/media/cheer.mp3": "/maths-for-kids/static/media/cheer.f4637f4b73ea6ba50822.mp3",
+    "static/media/countdownStart.mp3": "/maths-for-kids/static/media/countdownStart.60f55c8cdc31aa173b2b.mp3",
+    "static/media/wah-wah-sad.mp3": "/maths-for-kids/static/media/wah-wah-sad.e4e9fe60d68945c1e9c1.mp3",
+    "static/media/correct.mp3": "/maths-for-kids/static/media/correct.ef69f6a318371d479426.mp3",
+    "static/media/maths_multiplication.png": "/maths-for-kids/static/media/maths_multiplication.75ca03912764a3209d1d.png",
+    "static/media/maths_addition_d.png": "/maths-for-kids/static/media/maths_addition_d.bccf1b794d9c864dc953.png",
+    "static/media/maths_division.png": "/maths-for-kids/static/media/maths_division.b0b996981d0dc7d33c82.png",
+    "static/media/maths_addition.png": "/maths-for-kids/static/media/maths_addition.d3f3613e0073ca4ab557.png",
+    "static/media/maths_subtraction.png": "/maths-for-kids/static/media/maths_subtraction.88ac23cdaf142e964624.png",
+    "static/media/wrong.mp3": "/maths-for-kids/static/media/wrong.70bcf1d61a0acab0d320.mp3",
+    "index.html": "/maths-for-kids/index.html",
+    "main.4870c263.css.map": "/maths-for-kids/static/css/main.4870c263.css.map",
+    "main.5ff347dc.js.map": "/maths-for-kids/static/js/main.5ff347dc.js.map",
+    "787.59cad386.chunk.js.map": "/maths-for-kids/static/js/787.59cad386.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4870c263.css",
+    "static/js/main.5ff347dc.js"
+  ]
+}
